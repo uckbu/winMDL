@@ -6,7 +6,7 @@ from inference_sdk import InferenceHTTPClient
 
 # --- Configuration ---
 API_URL = "https://serverless.roboflow.com"
-API_KEY = "zoipelF67Mn8RniiR4eZ"
+API_KEY = "not on github man"
 MODEL_ID = "meteors-8m2qc-rruxg/1"
 
 VIDEOS_DIR = "videos"       # where event videos will be stored
@@ -165,3 +165,4 @@ while True:
 # Cleanup resources
 cap.release()
 cv2.destroyAllWindows()
+
